@@ -10,7 +10,9 @@ export default function MyApp({ children }: Props) {
   return (
     <>
       <Header />
+
       <main>{children}</main>
+
       <Footer />
     </>
   );
